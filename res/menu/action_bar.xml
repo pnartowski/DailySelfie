@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/take_picture"
+          android:icon="@drawable/ic_action_camera"
+          android:showAsAction="always"
+          android:title=""/>
+    <item android:id="@+id/enable_disable"
+          android:title="@string/enable_notification"
+          android:showAsAction="collapseActionView|withText"/>
+    <item android:id="@+id/edit_period"
+          android:title="@string/edit_period"
+          android:showAsAction="collapseActionView|withText"/>
+    <item android:id="@+id/delete"
+            android:title="@string/delete"
+            android:showAsAction="collapseActionView|withText"/>
+</menu>

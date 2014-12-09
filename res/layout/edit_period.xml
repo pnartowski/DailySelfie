@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="20px"
+            android:text="@string/set_period_title"/>
+
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <EditText
+                android:id="@+id/period_value"
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"/>
+        <Spinner
+                android:id="@+id/period_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/period_units"
+                android:layout_gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

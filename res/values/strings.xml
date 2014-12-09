@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Selfie</string>
+    <string name="enable_notification">enable notification</string>
+    <string name="disable_notification">disable notification</string>
+    <string name="edit_period">set notification period</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="set_period_title">Set notification period</string>
+    <string name="unable_to_create_file">Unable to create image file :</string>
+    <string name="delete">delete</string>
+    <string-array name="period_units">
+        <item>sec</item>
+        <item>min</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+</resources>
